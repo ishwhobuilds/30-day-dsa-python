@@ -1,42 +1,21 @@
 # 30-Day Data Structures and Algorithms (DSA) Challenge
 
-This repository is a structured guide for mastering Data Structures and Algorithms (DSA) in 30 days. The focus is on understanding problem-solving logic, implementing efficient solutions, and learning optimization techniques.
+This repository tracks my progress in mastering Data Structures and Algorithms (DSA) in 30 days. I'm focusing on problem-solving logic and writing efficient code.
 
-## Overview
+## Progress Tracker
 
-The challenge covers key areas of DSA:
-
-- **Arrays and Hashing**: Two pointers, sliding window, prefix sums, hash maps.
-- **Linked Lists and Stacks**: Fast/slow pointers, reversing linked lists, monotonic stacks.
-- **Recursion and Dynamic Programming**: Memoization, decision trees, knapsack and related problems.
-- **Trees and Graphs**: Binary trees, binary search trees, tries, DFS, BFS, graph traversal algorithms.
-
-## Problem Solving Approach
-
-For each problem, the approach involves:
-
-1. Understanding the problem and constraints.
-2. Identifying patterns or choosing the right data structure.
-3. Designing a solution from brute force to optimized.
-4. Writing clear and correct code.
-5. Analyzing time and space complexity.
-6. Optimizing where possible.
+- [x] **Day 1**: [Two Sum](https://leetcode.com/problems/two-sum/) - *Hash Map approach for O(n).*
+- [x] **Day 2**: [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) - *Vertical scanning through strings.*
+- [x] **Day 3**: [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) - *Two-pointer technique.*
+- [x] **Day 4**: [Remove Element](https://leetcode.com/problems/remove-element/) - *Efficient in-place array modification.*
+- [x] **Day 5**: [Search Insert Position](https://leetcode.com/problems/search-insert-position/) - *Binary search on sorted input.*
 
 ## Repository Structure
 
-Each problem is organized as a separate folder containing:
-
-- `solution.py` — Python implementation.
-- `approach.md` — Explanation of logic, edge cases, and complexity analysis.
-
-## Learning Goals
-
-- Develop a strong foundation in core DSA concepts.
-- Improve problem-solving and analytical thinking.
-- Write efficient, optimized code for real-world applications.
-- Prepare for technical interviews and coding challenges.
+Each day has its own folder containing:
+- `solution.py`: My Python implementation.
+- `approach.md`: The logic behind my solution and complexity analysis.
 
 ## Languages and Tools
-
-- Primary language: Python
-- Resources for learning: LeetCode, GeeksforGeeks, HackerRank
+- **Language**: Python
+- **Platform**: LeetCode

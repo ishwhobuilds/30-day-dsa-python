@@ -1,13 +1,11 @@
-# Two Sum - Thoughts
+# Two Sum
 
-Standard problem, but good for warming up with hash maps.
+The goal is to find two numbers in the array that add up to a specific target. 
 
-### My Logic:
-Instead of doing a nested loop ($O(n^2)$), I'm just doing one pass. I store every number I see in a dict. If `target - current_number` is already in the dict, I found the pair.
+### My Approach:
+Instead of checking every possible pair (which would take too long), I use a dictionary to remember every number I've seen so far and its position. 
+As I go through the array, I calculate what number I need to reach the target (target - current number). If that "needed" number is already in my dictionary, I've found the pair!
 
 **Complexity:**
-- Time: $O(n)$ because of the single loop.
-- Space: $O(n)$ for the dictionary storage.
-
-Note: Remember that the problem says exactly one solution exists, so no need to handle edge cases for multiple pairs yet.
-
+- Time: O(n) - I only go through the list once.
+- Space: O(n) - In the worst case, I store almost every number in my dictionary.
