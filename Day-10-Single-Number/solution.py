@@ -1,0 +1,9 @@
+from typing import List
+
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        ans = 0
+        for i in nums:
+            # XOR operator (^) cancels out numbers that appear twice!
+            ans = ans ^ i
+        return ans
